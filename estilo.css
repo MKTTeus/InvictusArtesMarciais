@@ -1,0 +1,291 @@
+body{
+    background-image: url("Fund.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.extensao{
+    width: 100%;
+}
+
+.CarrMode img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    padding: 50px;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    z-index: 1;
+}
+
+.carousel-caption h2 {
+    font-size: 3rem; 
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+}
+
+.text-center{
+    color: #388b44;
+}
+
+.cardcar {
+    color: #388b44;
+}
+
+.fund1{
+    background-color: rgb(63, 62, 62);
+    padding-top: 5px;
+}
+
+.Parag{
+    color: white;
+}
+
+.planos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    
+}
+
+.plano {
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.plano:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.plano h3 {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.plano p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.plano .preco {
+    font-size: 28px;
+    font-weight: bold;
+    color: #28a745;
+    margin: 20px 0;
+}
+
+.plano .botao {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #28a745;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.plano .botao:hover {
+    background-color: #218838;
+}
+
+.produtos-container {
+    margin: 50px 0;
+    padding: 20px;
+}
+
+
+.produto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.produto-imagem {
+    max-width: 200px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.produto-info {
+    max-width: 400px;
+}
+
+.produto-info h3 {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.produto-info p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.botton {
+    background-color: #28a745;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botton:hover {
+    background-color: #218838;
+}
+
+/* Seção de Contato */
+.contato-container {
+    padding: 60px 0;
+    background-color: #333;
+}
+
+.contato-container h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.informacoes-contato h3 {
+    font-size: 2rem;
+    color:white;
+    margin-bottom: 20px;
+}
+
+.informacoes-contato p {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.informacoes-contato ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.informacoes-contato ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.informacoes-contato a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.informacoes-contato a:hover {
+    text-decoration: underline;
+}
+
+
+.mapa-container {
+    margin-top: 40px;
+}
+
+.mapa h3 {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.mapa iframe {
+    border: none;
+    width: 100%;
+    height: 400px;
+}
+
+.textt{
+    color: white;
+}
+
+.color{
+    color:#1e7e34;
+}
+
+/*Formulario*/
+
+
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #343a40;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.card-body {
+    background-color: #ffffff;
+}
+
+.form-control, .form-select {
+    border-radius: 8px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
